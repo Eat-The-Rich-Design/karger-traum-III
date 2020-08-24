@@ -98,19 +98,20 @@ sup {
 .parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto;
     gap: 15px;
     width: 100%;
     margin: auto;
     grid-template-areas:
-        ". header ."
+        "header header header"
         ".  main ."
         ". footer .";
 }
 
 header {
     grid-area: header;
-    height: 250px;
+    height: 400px;
+    background-color: #000;
 }
 
 main {
@@ -134,7 +135,31 @@ footer {
     transform: rotate(180deg);
 }
 
+.text-container h1{
+  font-size: 150px;
+  color: rgba(255,255,255,.2);
+  background-image: url('img/ss.png');
+/*   background-position: center; */
+  background-size: 330px;
+  background-repeat: repeat-x;
+  -webkit-background-clip: text;
+  animation: pic-anim 45s linear infinite;
+}
+
+.text-container {
+  text-align: center;
+}
+
 /* ANIMATION CSS */
+
+@keyframes pic-anim {
+  0% {
+    background-position: left 0px top 0px;
+  }
+  40% {
+    background-position: left 800px top 0px;
+  }
+}
 
 .kt{
     animation: glitch 1s linear infinite;
