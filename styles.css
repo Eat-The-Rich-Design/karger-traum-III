@@ -110,7 +110,7 @@ sup {
 
 header {
     grid-area: header;
-    height: 400px;
+    height: 250px;
     background-color: #000;
 }
 
