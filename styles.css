@@ -163,6 +163,11 @@ a.button {
   border-radius: 20px;
 }
 
+div.buttons-row {
+  padding-top: 3rem;
+  margin: auto;
+}
+
 /* ANIMATION CSS */
 
 @keyframes pic-anim {
