@@ -175,6 +175,13 @@ div.buttons-row {
   margin-right: 5px;
 }
 
+.flag {
+  width: 10vh;
+  vertical-align: middle;
+  margin-right: 5px;
+  transform: rotate(180deg);
+}
+
 /* ANIMATION CSS */
 
 @keyframes pic-anim {
