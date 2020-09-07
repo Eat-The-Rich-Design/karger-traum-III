@@ -257,3 +257,13 @@ div.buttons-row {
       transform: translate(-22px,5px) skew(21deg); 
     }
   }
+
+  @media only screen and (max-width: 760px) {
+        header {
+          height: 10rem;
+        }
+        
+        .text-container h1 {
+          font-size: 5rem;
+        }
+  }   
