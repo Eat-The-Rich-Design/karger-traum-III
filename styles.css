@@ -164,6 +164,11 @@ a.button {
   margin-bottom: 1rem;
 }
 
+a.button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
 div.buttons-row {
   padding: 3rem 0rem 3rem 0rem;
   display: grid;
