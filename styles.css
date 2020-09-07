@@ -161,11 +161,12 @@ a.button {
   background-color: #000;
   color: #fff;
   border-radius: 20px;
+  margin-bottom: 1rem;
 }
 
 div.buttons-row {
-  padding-top: 3rem;
-  margin: auto;
+  padding: 3rem 0rem 3rem 0rem;
+  display: grid;
 }
 
 .intl {
