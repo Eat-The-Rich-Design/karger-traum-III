@@ -168,6 +168,12 @@ div.buttons-row {
   margin: auto;
 }
 
+.intl {
+  width: 6vh;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
 /* ANIMATION CSS */
 
 @keyframes pic-anim {
