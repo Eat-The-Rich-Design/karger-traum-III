@@ -239,7 +239,7 @@ div.buttons-row {
       transform: translate(13px,-1px) skew(-13deg); 
     }
   }
-  
+
   .kt:after{
     animation: glitchBotom 1.5s linear infinite;
     clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
@@ -258,6 +258,7 @@ div.buttons-row {
     }
   }
 
+  /* MEDIA QUERIES */
   @media only screen and (max-width: 760px) {
         header {
           height: 10rem;
