@@ -182,7 +182,7 @@ div.buttons-row {
 }
 
 .flag {
-  width: 10vh;
+  width: 8vh;
   vertical-align: middle;
   margin-right: 5px;
   transform: rotate(180deg);
@@ -259,6 +259,7 @@ div.buttons-row {
   }
 
   /* MEDIA QUERIES */
+  
   @media only screen and (max-width: 760px) {
         header {
           height: 10rem;
