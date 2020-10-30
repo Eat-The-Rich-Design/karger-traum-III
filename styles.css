@@ -169,8 +169,9 @@ a.button:hover {
 }
 
 div.buttons-row {
-  padding: 3rem 0rem 3rem 0rem;
-  display: grid;
+    padding: 3rem 0rem 3rem 0rem;
+    display: inline-block;
+    margin: 3rem 0rem;
 }
 
 .intl {
