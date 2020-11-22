@@ -275,4 +275,12 @@ div.buttons-row {
         .text-container h1 {
           font-size: 5rem;
         }
+
+        .flag {
+          width: 10%;
+        }
+
+        .intl {
+          width: 10%;
+        }
   }   
