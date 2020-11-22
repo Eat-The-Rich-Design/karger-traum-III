@@ -267,7 +267,7 @@ div.buttons-row {
 
   /* MEDIA QUERIES */
   
-  @media only screen and (max-width: 760px) {
+  @media only screen and (max-width: 780px) {
         header {
           height: 10rem;
         }
@@ -283,4 +283,12 @@ div.buttons-row {
         .intl {
           width: 10%;
         }
-  }   
+
+        .right-bar {
+          margin-top: 4rem;
+        }
+
+        .buttons-row {
+          display: grid;
+          grid-row-gap: 2rem;
+        }
