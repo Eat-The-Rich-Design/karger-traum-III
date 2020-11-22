@@ -111,6 +111,7 @@ header {
     grid-area: header;
     height: 250px;
     background-color: #000;
+    margin-bottom: 6rem;
 }
 
 main {
