@@ -292,4 +292,9 @@ div.buttons-row {
           display: grid;
           grid-row-gap: 2rem;
         }
+
+        iframe {
+          width: 100%;
+          height: 100%:
+        }
       }   
