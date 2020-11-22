@@ -191,6 +191,14 @@ div.buttons-row {
   transform: rotate(180deg);
 }
 
+.right-bar {
+  background-color: #27bcc8;
+  height: 5rem;
+  display: grid;
+  align-self: center;
+  margin-top: 9rem;
+}
+
 /* ANIMATION CSS */
 
 @keyframes pic-anim {
