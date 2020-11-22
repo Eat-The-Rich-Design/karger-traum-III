@@ -186,9 +186,15 @@ div.buttons-row {
   transform: rotate(180deg);
 }
 
+.left-bar{
+  background-color: #27bcc8;
+  height: 8rem;
+  display: grid;
+}
+
 .right-bar {
   background-color: #27bcc8;
-  height: 5rem;
+  height: 8rem;
   display: grid;
   align-self: center;
   margin-top: 9rem;
