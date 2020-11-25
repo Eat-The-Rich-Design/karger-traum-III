@@ -195,6 +195,7 @@ div.buttons-row {
   width: 10vh;
   margin-right: 5px;
   transform: rotate(180deg);
+  display: inline-block;
 }
 
 .buttons-row a.dka:hover::before, a.fr:hover::before {
