@@ -179,13 +179,49 @@ a.button:hover {
   color: #000;
   background-color: #F4EFD0;
   border: 2px solid #000;
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 div.buttons-row {
     padding: 3rem 0rem 3rem 0rem;
     margin: 2rem 0rem;
     text-align: center;
+}
+
+.buttons-row a.dka::before, a.fr::before {
+  content: url(img/american-flag.svg);
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 10vh;
+  margin-right: 5px;
+  transform: rotate(180deg);
+}
+
+.buttons-row a.dka:hover::before, a.fr:hover::before {
+  content: url(img/american-flag_blk.svg);
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 10vh;
+  margin-right: 5px;
+  transform: rotate(180deg);
+}
+
+.buttons-row a.lobster::before {
+  content: url(img/intl.svg);
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 9vh;
+  margin-right: 5px;
+  transform: rotate(180deg);
+}
+
+.buttons-row a.lobster:hover::before {
+  content: url(img/intl_blk.svg);
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 9vh;
+  margin-right: 5px;
+  transform: rotate(180deg);
 }
 
 .intl {
