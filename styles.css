@@ -170,7 +170,9 @@ a.button {
   font-size: 1.5rem;
   background-color: #000;
   color: #F4EFD0;
+  margin-bottom: 1rem;
   border-radius: 5px;
+  display: block;
 }
 
 a.button:hover {
