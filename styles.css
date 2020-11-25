@@ -111,7 +111,7 @@ header {
     grid-area: header;
     height: 250px;
     background-color: #000;
-    margin-bottom: 6rem;
+    margin-bottom: 12rem;
 }
 
 main {
@@ -142,6 +142,13 @@ footer {
   background-repeat: repeat-x;
   -webkit-background-clip: text;
   animation: pic-anim 45s linear infinite;
+}
+
+.song-strip {
+  background-color: #27bcc8;
+  height: 8rem;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .text-container {
