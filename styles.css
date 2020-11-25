@@ -153,12 +153,12 @@ iframe {
 }
 
 a.button {
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 2rem 2rem 2rem 2rem;
   text-align: center;
   font-size: 1.5rem;
   background-color: #000;
   color: #F4EFD0;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 a.button:hover {
@@ -284,11 +284,11 @@ div.buttons-row {
         }
 
         .flag {
-          width: 10%;
+          width: 3vh;
         }
 
         .intl {
-          width: 10%;
+          width: 2vh%;
         }
 
         .right-bar {
