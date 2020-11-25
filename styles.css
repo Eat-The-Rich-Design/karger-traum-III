@@ -148,7 +148,12 @@ footer {
   background-color: #27bcc8;
   height: 8rem;
   text-align: center;
-  font-size: 2rem;
+}
+
+.song-strip p {
+  font-size: 4rem;
+  padding-top: 1rem;
+  color: #F4EFD0;
 }
 
 .text-container {
