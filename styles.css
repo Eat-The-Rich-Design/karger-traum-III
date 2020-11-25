@@ -188,13 +188,13 @@ div.buttons-row {
 }
 
 .intl {
-  width: 5vh;
+  width: 9vh;
   vertical-align: middle;
   margin-right: 5px;
 }
 
 .flag {
-  width: 6vh;
+  width: 10vh;
   vertical-align: middle;
   margin-right: 5px;
   transform: rotate(180deg);
