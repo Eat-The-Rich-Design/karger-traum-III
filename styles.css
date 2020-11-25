@@ -190,10 +190,9 @@ div.buttons-row {
 
 .buttons-row a.dka::before, a.fr::before {
   content: url(img/american-flag.svg);
-  margin-right: 10px;
   vertical-align: middle;
   width: 10vh;
-  margin-right: 5px;
+  margin-right: 10px;
   transform: rotate(180deg);
   display: inline-block;
 }
@@ -203,7 +202,6 @@ div.buttons-row {
   margin-right: 10px;
   vertical-align: middle;
   width: 10vh;
-  margin-right: 5px;
   transform: rotate(180deg);
 }
 
@@ -221,7 +219,6 @@ div.buttons-row {
   margin-right: 10px;
   vertical-align: middle;
   width: 9vh;
-  margin-right: 5px;
   transform: rotate(180deg);
 }
 
