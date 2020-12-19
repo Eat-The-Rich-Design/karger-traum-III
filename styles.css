@@ -320,7 +320,7 @@ div.buttons-row {
 
   /* MEDIA QUERIES */
   
-  @media screen (max-width: 780px) {
+  @media (max-width: 780px) {
         header {
           height: 10rem;
         }
