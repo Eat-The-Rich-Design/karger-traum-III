@@ -329,10 +329,6 @@ div.buttons-row {
           font-size: 5rem;
         }
 
-        .right-bar {
-          margin-top: 4rem;
-        }
-
         .buttons-row {
           display: grid;
           grid-row-gap: 2rem;
