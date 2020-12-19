@@ -169,6 +169,7 @@ a.button {
   margin-bottom: 1rem;
   border-radius: 5px;
   display: block;
+  cursor: pointer;
 }
 
 a.button:hover {
